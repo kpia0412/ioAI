@@ -2,6 +2,6 @@
   "format": "ioffice-extension-v1",
   "version": "0.22.0",
   "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.22.0.zip",
-  "sha256": "3524ce59be1a3048fc6f3572e103f80e1a292ae106a3e9cf665bb4a550806e38",
-  "notes": "v0.22.0: hàng đợi Văn thư nhiều trang 10/25/50; preset theo ID; lưu tiến độ; dừng/tiếp tục; khóa liên tab; xác nhận kết quả chuyển."
+  "sha256": "653402898615d4a62db80a1285f697efbddb8d0b4e0bfc34b310a7b67c0c0990",
+  "notes": "v0.22.0: sua DOM Van thu dong; Van thu khong goi AI; preset XLC/PH/Xem tren widget; bat buoc 1 XLC; xac nhan iOffice sau khi Chuyen."
 }
