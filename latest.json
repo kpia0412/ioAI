@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.21.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.21.0.zip",
-  "sha256": "f5851f303a28b58a869e34baa8fc7a1403eda867a91064fb2a628cd5584041d1",
-  "notes": "v0.21.0: tach Ap dung/Ap dung & Chuyen; them Chanh Van phong + 3 lanh dao xem mac dinh; VP de xuat; XLC bat buoc; Gemini lan dau mo tab ra truoc, cac lan sau chay nen."
+  "version": "0.22.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.22.0.zip",
+  "sha256": "3524ce59be1a3048fc6f3572e103f80e1a292ae106a3e9cf665bb4a550806e38",
+  "notes": "v0.22.0: hàng đợi Văn thư nhiều trang 10/25/50; preset theo ID; lưu tiến độ; dừng/tiếp tục; khóa liên tab; xác nhận kết quả chuyển."
 }
