@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.19.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.19.0.zip",
-  "sha256": "e69ba5a05fbada47478031d8090d21162235f0a4948543c8909d4b004c579621",
-  "notes": "v0.19.0: Tracker V3 local-first, Sổ Public theo từng đơn vị XLC, màu trạng thái, Hoàn thành riêng, tối ưu MutationObserver/network-tap và bỏ Gemini chạy nền khi chỉ xử lý iOffice."
+  "version": "0.20.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.20.0.zip",
+  "sha256": "76455efef2916c9b8b1726fb4f02371a8e7bbb0fc02081cc37d19f889c1929e7",
+  "notes": "v0.20.0: cập nhật lớn - AI hiểu đúng chủ thể Ea Ly, theo dõi nhiệm vụ thủ công, giao diện gọn cho laptop, danh bạ Văn thư, Tracker V4 chỉnh tay MANUAL, Public theo từng đơn vị và tối ưu local-first."
 }
