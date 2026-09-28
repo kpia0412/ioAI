@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.22.1",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.22.0.zip",
-  "sha256": "653402898615d4a62db80a1285f697efbddb8d0b4e0bfc34b310a7b67c0c0990",
-  "notes": "v0.22.0: sua DOM Van thu dong; Van thu khong goi AI; preset XLC/PH/Xem tren widget; bat buoc 1 XLC; xac nhan iOffice sau khi Chuyen."
+  "version": "0.30.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.30.0.zip",
+  "sha256": "bafd7d65e3d773fc75a71116804133f300c68662a34fd2502ccd4c6aee27a51b",
+  "notes": "Major update: unified background Gemini/ChatGPT Web AI with duplicate-send protection; corrected Clerk recipient DOM and role de-duplication; lighter concurrent reader; redesigned shared UI."
 }
