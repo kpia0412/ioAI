@@ -1,7 +1,0 @@
-{
-  "format": "ioffice-extension-v1",
-  "version": "0.18.2",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.18.2.zip",
-  "sha256": "57931ceb8578d716b01194289df976bff1832ff1662697ce0a0ea2b9023ffaa2",
-  "notes": "v0.18.2: Tracker V2 tự đọc Văn bản liên quan; Lãnh đạo ký thành công -> Chờ ban hành; Văn thư ban hành thành công + có Số/Ký hiệu -> Đã hoàn thành. Không cần AI để nhận văn bản nguồn."
-}
