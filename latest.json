@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
   "version": "0.18.0",
-  "downloadUrl": "https://YOUR-HOST.example/ioffice/ioffice-ai-0.18.0.zip",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.18.0.zip",
   "sha256": "9eab14f3776c1f3915d2bcc021e922d91fe24b44a14e565b38452d717b890956",
   "notes": "v0.18.0: vai tro Lanh dao/Van thu, file chinh 5 giay, han xu ly noi bat, tich hop So theo doi Google Sheets."
 }
