@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.30.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.30.0.zip",
-  "sha256": "bafd7d65e3d773fc75a71116804133f300c68662a34fd2502ccd4c6aee27a51b",
-  "notes": "Major update: unified background Gemini/ChatGPT Web AI with duplicate-send protection; corrected Clerk recipient DOM and role de-duplication; lighter concurrent reader; redesigned shared UI."
+  "version": "0.31.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.31.0.zip",
+  "sha256": "39af02b2e19126b0fa220001302a8924b246558d0992f1e5f9972a5089d773b1",
+  "notes": "Sửa DOM Văn thư: đúng Chuyển xử lý, xác nhận bằng #btnActionChuyenXuLy, đọc đầy đủ treegrid người/đơn vị kể cả nhánh U140 đang thu gọn; danh bạ nhóm theo đơn vị."
 }
