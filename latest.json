@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.42.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.42.0.zip",
-  "sha256": "c5d7620c7bb37fbfb9870d6183c00fce6628241f9d7651929e6ce9e7d09dd8b8",
-  "notes": "Sổ theo dõi bổ sung XLC, lọc theo đơn vị/trạng thái và danh sách gọn; AI tự điền tên nhiệm vụ, XLC, hạn, nội dung với công tắc thêm Sổ mặc định tắt; cảnh báo thiếu thông tin; thêm người theo dõi mặc định cho Lãnh đạo; reload khi đổi Lãnh đạo/Văn thư; sửa title ngắn và đối chiếu Văn bản liên quan của văn bản đi."
+  "version": "0.43.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.43.0.zip",
+  "sha256": "39e906114d3ef1f75d150e03471875038381d0950303dfe8bd32e11c13fc6691",
+  "notes": "Thêm Local nhanh đọc text bằng quy tắc cục bộ để xác định chủ thể, nhiệm vụ, XLC và hạn; chọn Local nhanh | Gemini Web | ChatGPT Web | API và tự nhớ lựa chọn gần nhất; khi AI/Web lỗi có Copy prompt + Dán kết quả; tối ưu người theo dõi mặc định bằng tìm kiếm, danh sách đã chọn và fallback theo tên; văn bản chỉ để biết vẫn có thể chủ động tạo nhiệm vụ; cải thiện chọn file chính theo cờ iOffice, trích yếu/loại văn bản và giảm điểm hồ sơ/phụ lục/danh sách phụ."
 }
