@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.40.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.40.0.zip",
-  "sha256": "ba52910210145acd96926bde7c6bf3cce3960644c8b91d13103ac909dd376365",
-  "notes": "Sửa luồng Văn thư theo DOM mới: Áp dụng chỉ tick người nhận, Chuyển xử lý dùng đúng #btn_action_publish/get_cleck_publish, danh bạ đọc cây ẩn U140. Kiểm tra thể thức đọc đúng FILE TRÌNH KÝ trước/sau Xử lý. Thêm xác nhận Lãnh đạo → Chờ ban hành, tiền tố VP đề xuất tùy chỉnh, chọn lại AI/API/model và Web AI health."
+  "version": "0.41.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.41.0.zip",
+  "sha256": "e1749c7b7e5f872689d6329367e38edeeae6a9c41d115e440357bbb24bac7b5f",
+  "notes": "Bản ổn định, nhẹ hơn: chỉ còn Lãnh đạo/Văn thư/Sổ theo dõi; Văn bản đến luôn Phân tích, văn bản đi Lãnh đạo kiểm tra FILE TRÌNH KÝ; Sổ theo dõi lazy-load có thêm/sửa/xóa/đổi trạng thái kèm xác nhận; Văn thư không tự quét Số/Ký hiệu, file, Tracker hay AI khi bấm Xử lý; bỏ observer toàn trang và tracker-monitor cũ."
 }
