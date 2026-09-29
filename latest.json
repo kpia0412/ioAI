@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.44.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.44.0.zip",
-  "sha256": "e22b52389e8bb831aa7771b02258a049dff9c1588a26eb65d00ab7c22e8994eb",
-  "notes": "Khôi phục mục 3. Xem để biết và chọn cá nhân ngay trên widget với nút khóa làm mặc định; bỏ cấu hình người theo dõi khỏi Cài đặt; tối ưu đổi văn bản để cập nhật trích yếu nhanh và hủy dữ liệu cũ; rút gọn Nhiệm vụ theo dõi chỉ còn tên việc, hạn, XLC và ô tích Thêm vào Sổ theo dõi."
+  "version": "0.45.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.45.0.zip",
+  "sha256": "781cd74ee96a1d0e6a842f82fb75268c84e4d06c72406192a1b056723286d46e",
+  "notes": "Sửa đúng danh sách Xem để biết của Lãnh đạo theo DOM thực tế: dùng checkbox chkunitempxem<email|Uxxx>, đọc danh bạ riêng của Lãnh đạo, lưu khóa mặc định theo email/value, click checkbox thật và xác minh checked; không thay đổi luồng Chuyển."
 }
