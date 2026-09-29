@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.31.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.31.0.zip",
-  "sha256": "39af02b2e19126b0fa220001302a8924b246558d0992f1e5f9972a5089d773b1",
-  "notes": "Sửa DOM Văn thư: đúng Chuyển xử lý, xác nhận bằng #btnActionChuyenXuLy, đọc đầy đủ treegrid người/đơn vị kể cả nhánh U140 đang thu gọn; danh bạ nhóm theo đơn vị."
+  "version": "0.40.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.40.0.zip",
+  "sha256": "ba52910210145acd96926bde7c6bf3cce3960644c8b91d13103ac909dd376365",
+  "notes": "Sửa luồng Văn thư theo DOM mới: Áp dụng chỉ tick người nhận, Chuyển xử lý dùng đúng #btn_action_publish/get_cleck_publish, danh bạ đọc cây ẩn U140. Kiểm tra thể thức đọc đúng FILE TRÌNH KÝ trước/sau Xử lý. Thêm xác nhận Lãnh đạo → Chờ ban hành, tiền tố VP đề xuất tùy chỉnh, chọn lại AI/API/model và Web AI health."
 }
