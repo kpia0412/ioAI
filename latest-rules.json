@@ -1,7 +1,7 @@
 {
   "format": "ioffice-ai-rules-release-v1",
-  "version": "2026.09.30.04",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ea-ly-rules-2026.09.30.04.json",
-  "sha256": "e0b75b95d8beb51c3c5017549157a5498d8ca9d1a6303e5fd9d79866e2a8f3e6",
-  "notes": "Tách bộ não Văn bản đến; xác định chủ thể/phạm vi/hạn; phản hồi có điều kiện không tự tạo Tracker; đọc phụ lục theo dấu hiệu nhiệm vụ và thời hạn."
+  "version": "2026.09.30.06",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ea-ly-rules-2026.09.30.06.json",
+  "sha256": "9eef8f36b26e39b582389d6c955f1460b223dcab2bdf1361e67a6d717f9b649c",
+  "notes": "Master Rule tối ưu: giữ quy tắc cốt lõi từ bản gọn và bản 94 rules, compiler thích ứng giảm token, nguồn tham chiếu không gửi AI."
 }

@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.69.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.69.0.zip",
-  "sha256": "e5ff6c2d2d6a1adf98637f66d48d77bfe568989438ea5db11da51e9fd3158bfd",
-  "notes": "Accuracy & Performance Core: validator thống nhất, xác minh deadline evidence, Quality Escalation, Golden Tests, Rule rollback và đọc song song auto-max CPU."
+  "version": "0.70.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.70.0.zip",
+  "sha256": "4bce9f7ecb2eaafaae0439f5af8ff6a2514339d559d283c0d9a6ab5196b16004",
+  "notes": "Master Rule 2026.09.30.06 + adaptive compiler giảm token, tránh lặp functions và giữ các quy tắc deadline/scope/phụ lục mạnh."
 }
