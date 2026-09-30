@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.62.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.62.0.zip",
-  "sha256": "7e3a5405afc08956ec46eeaaff96f4ae6321b9b96dde73b14e62ec6b9358faba",
-  "notes": "Đưa Phân tích AI/Kiểm tra thể thức lên thanh tiêu đề; tự thu gọn khi xử lý và tự mở khi xong; mini mode khi rời chi tiết/chuyển xong; thêm ghim vị trí; Ý kiến chỉ đạo tóm gọn nhưng giữ đủ đầu việc; Lịch sử gửi Sổ có Xóa tất cả. Giữ sửa Gemini Web sau 3 lượt từ 0.61.1."
+  "version": "0.63.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.63.0.zip",
+  "sha256": "7a444fabdb3d31dc9018b178939cc825e0e9b7613bdea1c8d46d0a52d787ef93",
+  "notes": "Rule phản hồi có điều kiện không tự tạo Sổ; bỏ Xem để biết đơn vị; chọn file chính chặt hơn; tự đọc phụ lục bắt buộc; Văn bản đi ưu tiên Word và đổi thành Kiểm tra văn bản."
 }
