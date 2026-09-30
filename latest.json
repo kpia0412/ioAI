@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.64.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.64.0.zip",
-  "sha256": "318fc7e9d3e49842b06fa95f329f50c57da1878750b9c5509b0ce0ad8e81e257",
-  "notes": "Tinh gon 9 dau moi; them Dang uy UBND rieng va phan biet Dang uy xa; Tram/Truong quy ve Phong VH-XH cho phan luong moi; sua nhan dien Phu luc gia khi Word+PDF cung mot van ban; Tracker 7.0.17 dong bo danh muc don vi."
+  "version": "0.65.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.65.0.zip",
+  "sha256": "3f7e0562c1e94e2914eadf2b6aead388eaa15e8be1adb88e3fddbc8e8e313d60",
+  "notes": "API-first; 3 preset Gemini OpenAI-compatible; kiểm tra kết nối API; Áp dụng cùng hàng AI hỗ trợ; tối giản Web AI và cấu hình Sổ."
 }
