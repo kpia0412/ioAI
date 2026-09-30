@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.50.2",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.50.2-Tracker-V7.0.5.zip",
-  "sha256": "cb1376ed40bce4fa05ebbce814375641760700d9c53113a487069c98cb07bea5",
-  "notes": "iOffice AI 0.50.2 - dong bo Tracker V7.0.5, toi uu So theo doi va tao nhiem vu."
+  "version": "0.50.3",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.50.3.zip",
+  "sha256": "f9cbc05ea26510ce7f8a2f448480cd184211487aca2bf789bceac90dff7a41d0",
+  "notes": "iOffice AI 0.50.3: tu dong phat hien va tu dong cap nhat khi iOffice an toan."
 }
