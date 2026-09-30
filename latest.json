@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.50.4",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.50.4.zip",
-  "sha256": "50c8ebac387c6ce19e7f2b13974107183bfaf7b2b78ca6479a1f486ad1394474",
-  "notes": "iOffice AI 0.50.4: AI bat/tat linh hoat, phan luong thu cong luon san sang, So theo doi luon bat va bat buoc Han xu ly, XLC Tracker dong bo muc 1, y kien chi dao AI rut gon."
+  "version": "0.50.5",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.50.5.zip",
+  "sha256": "9ecedf9b62e19052d04741cc9e18e887b02e0e25232628b793fc387dfea30890",
+  "notes": "iOffice AI 0.50.5: chon don vi dung bang Lien thong noi bo; So theo doi bat theo tung van ban sau khi co han; hien trang thai ket noi Tracker."
 }
