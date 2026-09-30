@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.63.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.63.0.zip",
-  "sha256": "7a444fabdb3d31dc9018b178939cc825e0e9b7613bdea1c8d46d0a52d787ef93",
-  "notes": "Rule phản hồi có điều kiện không tự tạo Sổ; bỏ Xem để biết đơn vị; chọn file chính chặt hơn; tự đọc phụ lục bắt buộc; Văn bản đi ưu tiên Word và đổi thành Kiểm tra văn bản."
+  "version": "0.64.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.64.0.zip",
+  "sha256": "318fc7e9d3e49842b06fa95f329f50c57da1878750b9c5509b0ce0ad8e81e257",
+  "notes": "Tinh gon 9 dau moi; them Dang uy UBND rieng va phan biet Dang uy xa; Tram/Truong quy ve Phong VH-XH cho phan luong moi; sua nhan dien Phu luc gia khi Word+PDF cung mot van ban; Tracker 7.0.17 dong bo danh muc don vi."
 }
