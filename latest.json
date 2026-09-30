@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.65.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.65.0.zip",
-  "sha256": "3f7e0562c1e94e2914eadf2b6aead388eaa15e8be1adb88e3fddbc8e8e313d60",
-  "notes": "API-first; 3 preset Gemini OpenAI-compatible; kiểm tra kết nối API; Áp dụng cùng hàng AI hỗ trợ; tối giản Web AI và cấu hình Sổ."
+  "version": "0.67.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.67.0.zip",
+  "sha256": "507244d6283ae0bd2a135c0fb747fbe8ca5adabeeccc5718c9562cbd06bec521",
+  "notes": "Giao diện AI gọn hơn: bỏ checkbox AI hỗ trợ và nút fallback dư; Dừng màu đỏ; thông tin AI không lặp; lưu cấu hình tự tải lại; thêm nhập/xuất quy tắc AI riêng cho văn bản đến/đi. Giữ chuỗi API fallback v0.66.0."
 }
