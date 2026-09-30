@@ -1,0 +1,210 @@
+{
+  "format": "ioffice-ai-incoming-rules-v1",
+  "schemaVersion": 1,
+  "version": "2026.09.30.04",
+  "name": "Ea Ly Incoming Rules",
+  "description": "Bộ quy tắc nghiệp vụ độc lập cho phân tích văn bản đến của UBND xã Ea Ly.",
+  "inputPolicy": {
+    "includeSummary": true,
+    "includeSymbol": true,
+    "includeSender": true,
+    "includeDocumentDate": true,
+    "includeDocType": true,
+    "includeUrgency": true,
+    "includeAttachmentNames": true,
+    "includePrimaryText": true,
+    "includeSupportingDocuments": true,
+    "includeOtherFileNames": true,
+    "maxPrimaryChars": 42000,
+    "maxSupportingChars": 18000,
+    "maxTotalChars": 78000,
+    "neverDuplicatePreviewAndBundle": true,
+    "neverGuessUnreadFiles": true,
+    "sendEvenWhenIncomplete": true,
+    "additionalReadPolicy": {
+      "mode": "task-deadline-aware",
+      "autoReadStrongAppendix": true,
+      "suggestMoreAfterPrimaryAnalysis": true,
+      "maxAdditionalFiles": 6,
+      "appendixNameKeywords": [
+        "phụ lục",
+        "danh sách",
+        "biểu",
+        "mẫu biểu",
+        "appendix"
+      ],
+      "taskKeywords": [
+        "giao",
+        "đề nghị",
+        "yêu cầu",
+        "thực hiện",
+        "rà soát",
+        "báo cáo",
+        "cung cấp",
+        "xác nhận",
+        "có ý kiến",
+        "triển khai",
+        "xây dựng kế hoạch",
+        "gửi kết quả"
+      ],
+      "deadlineKeywords": [
+        "trước ngày",
+        "chậm nhất",
+        "hoàn thành trước",
+        "gửi trước",
+        "hạn",
+        "thời hạn",
+        "trong ngày",
+        "trong vòng"
+      ]
+    }
+  },
+  "scopeRules": [
+    "Xác định CHỦ THỂ của mục/tiểu mục trước khi đọc từng gạch đầu dòng; chủ thể của tiêu đề mục được kế thừa cho đến khi văn bản chuyển chủ thể.",
+    "Chỉ coi là nhiệm vụ trực tiếp của UBND xã Ea Ly khi văn bản giao trực tiếp cho Ea Ly hoặc giao cho nhóm UBND xã/phường mà Ea Ly thuộc phạm vi áp dụng, đồng thời Ea Ly có hành động hoặc sản phẩm cụ thể phải hoàn thành.",
+    "Nếu cơ quan/đơn vị khác là chủ thể chính và UBND xã chỉ được nêu là phối hợp/hỗ trợ/làm việc cùng thì taskScope=coordination, actionRequired=false, tasks=[], trackRecommended=false.",
+    "Nếu văn bản chỉ để biết thì taskScope=information, actionRequired=false, tasks=[], trackRecommended=false.",
+    "Nếu nhiệm vụ thuộc xã/phường khác thì taskScope=other-locality, actionRequired=false, tasks=[], trackRecommended=false.",
+    "Nếu chưa chắc phạm vi, chủ thể, sản phẩm hoặc hạn thuộc ai thì taskScope=ambiguous, actionRequired=false, tasks=[], trackRecommended=false, requiresReview=true.",
+    "Yêu cầu phản hồi có điều kiện không phải nhiệm vụ bắt buộc: nếu văn bản nêu không phản hồi được hiểu là không có thông tin, trường hợp không có thì không cần phản hồi, hoặc chỉ khi có thông tin mới cung cấp, thì không tạo nhiệm vụ/hạn Tracker chỉ vì có ngày đề nghị phản hồi."
+  ],
+  "deadlineRules": [
+    "Chỉ gắn deadline khi câu/đoạn chứng minh hạn áp dụng trực tiếp cho Ea Ly hoặc cho sản phẩm Ea Ly phải nộp.",
+    "Không lấy ngày ban hành, lịch họp, hạn của Trung tâm Y tế/Bệnh viện/trường/Sở/ngành/xã khác rồi gán cho Ea Ly.",
+    "Không tự đặt deadline cho các từ khẩn trương, sớm, kịp thời.",
+    "Nếu có deadline thì deadlineEvidence phải chứa đúng câu/đoạn chứng minh; nếu bằng chứng không rõ thì không gán deadline và requiresReview=true."
+  ],
+  "trackingRules": [
+    "trackRecommended=true chỉ khi taskScope=direct và có nhiệm vụ/sản phẩm cụ thể cần theo dõi; nếu có deadline trực tiếp thì ưu tiên true.",
+    "Không tự tạo Tracker nếu chỉ phối hợp, theo dõi, để biết, địa phương khác hoặc chưa chắc phạm vi.",
+    "Người dùng có thể chủ động bật Thêm vào Sổ theo dõi nên AI phải thận trọng, không tạo task chỉ để lấp cấu trúc."
+  ],
+  "routingRules": [
+    "Mọi văn bản đến cần đúng 1 mainUnit làm đầu mối nhận trên iOffice; mainUnit không đồng nghĩa luôn có nhiệm vụ Tracker.",
+    "coordinationUnits chỉ dùng cho đơn vị thật sự cần phối hợp; viewUnits luôn trả []. Cá nhân xem để biết do người dùng chọn riêng.",
+    "Không đưa Văn phòng vào phối hợp chỉ để nắm tình hình.",
+    "Thiên tai, đất đai, giao thông, nông nghiệp, tài chính-ngân sách, đầu tư, xây dựng, công thương thường thuộc Phòng Kinh tế.",
+    "Giáo dục, y tế, nội vụ, CCHC, chuyển đổi số, văn hóa-xã hội thường thuộc Phòng Văn hóa - Xã hội.",
+    "Trường học và Trạm Y tế không là đầu mối phân luồng độc lập; nhiệm vụ liên quan được quy về Phòng Văn hóa - Xã hội.",
+    "Trung tâm Phục vụ hành chính công chỉ làm mainUnit khi đúng nhiệm vụ một cửa/TTHC; Trung tâm Cung ứng khi đúng hoạt động sự nghiệp công/tuyên truyền/dịch vụ được giao.",
+    "Đảng ủy UBND xã khác Đảng ủy xã. Chỉ chọn Đảng ủy UBND khi văn bản giao đích danh Đảng ủy/Đảng bộ UBND xã, chi bộ trực thuộc hoặc công tác Đảng nội bộ khối UBND. Văn bản của Đảng ủy xã giao UBND xã thực hiện quản lý nhà nước phải phân về phòng chuyên môn tương ứng."
+  ],
+  "instructionRules": [
+    "instruction là Ý kiến chỉ đạo tóm gọn nhưng phải đủ toàn bộ đầu việc/sản phẩm trực tiếp của Ea Ly; bỏ bối cảnh/căn cứ dư thừa, không cắt chuỗi bằng giới hạn ký tự và không dùng dấu … để bỏ nhiệm vụ.",
+    "Nếu nhiều đầu việc, dùng 1-3 câu hoặc các vế ngăn bằng dấu chấm phẩy; nêu đơn vị, hành động/sản phẩm và hạn trực tiếp nếu có.",
+    "Nếu chỉ phối hợp: viết ngắn theo dạng Giao [đơn vị] tiếp nhận, theo dõi và phối hợp theo yêu cầu.",
+    "Nếu chỉ để biết: viết Giao [đơn vị] tiếp nhận, nghiên cứu để biết."
+  ],
+  "appendixRules": [
+    "Chỉ cần đọc thêm Phụ lục/Danh sách/Biểu khi chính văn có dấu hiệu giao nhiệm vụ/hạn và phụ lục được dùng để xác định đối tượng, địa phương, chỉ tiêu, sản phẩm, biểu mẫu hoặc thời hạn.",
+    "Nếu phụ lục đã được đọc thì dùng nội dung phụ lục để xác định Ea Ly có thuộc đối tượng hay chưa hoàn thành hay không.",
+    "Nếu phụ lục cần thiết nhưng chưa đọc được, không suy đoán; requiresReview=true. Tuy nhiên vẫn phải phân tích phần dữ liệu chính đã đọc được và nêu rõ giới hạn.",
+    "Không được chặn toàn bộ lượt gửi AI chỉ vì thiếu một tệp phụ; luôn gửi dữ liệu chính đã đọc được cùng trạng thái thiếu dữ liệu."
+  ],
+  "specialCases": [
+    "Nếu mục có tiêu đề Đối với Trung tâm Y tế/Bệnh viện và gạch đầu dòng yêu cầu phối hợp UBND xã nhưng hạn gửi Sở thuộc Trung tâm Y tế/Bệnh viện, không tạo task hạn cho Ea Ly; mainUnit Phòng VH-XH, actionRequired=false, trackRecommended=false.",
+    "Nếu văn bản gửi chung các xã/phường để rà soát/cung cấp thông tin nhưng quy định không phản hồi được hiểu là không có thông tin, chọn đơn vị chuyên môn rà soát nhưng không tự tạo Tracker."
+  ],
+  "outputRules": [
+    "taskScope chỉ dùng direct|coordination|information|other-locality|ambiguous.",
+    "Mỗi nhiệm vụ trực tiếp độc lập là một phần tử tasks và giữ đúng thứ tự xuất hiện.",
+    "task.task viết theo hành động/sản phẩm cụ thể, không chép nguyên đoạn dài.",
+    "reason 1-2 câu; signals tối đa 5 ý ngắn.",
+    "Nếu dữ liệu chính thiếu hoặc có tệp quan trọng chưa đọc được thì requiresReview=true và confidence<0.7."
+  ],
+  "units": [
+    {
+      "id": "U140",
+      "name": "Văn phòng HĐND và UBND",
+      "functions": [
+        "tham mưu tổng hợp HĐND/UBND",
+        "chương trình công tác, lịch họp, thông báo kết luận",
+        "văn thư nghiệp vụ, pháp chế, tiếp công dân theo phân công"
+      ]
+    },
+    {
+      "id": "U141",
+      "name": "Phòng Kinh tế",
+      "functions": [
+        "tài chính ngân sách, kế hoạch, đầu tư",
+        "đất đai, tài nguyên, môi trường",
+        "nông nghiệp, thủy lợi, thiên tai",
+        "xây dựng, giao thông, thương mại, công thương"
+      ]
+    },
+    {
+      "id": "U142",
+      "name": "Phòng Văn hóa - Xã hội",
+      "functions": [
+        "nội vụ, CCHC, thi đua",
+        "giáo dục và đào tạo",
+        "y tế, dân số",
+        "văn hóa, xã hội, thông tin, khoa học công nghệ, chuyển đổi số",
+        "đầu mối quản lý trường học và Trạm Y tế"
+      ]
+    },
+    {
+      "id": "U120",
+      "name": "Trung tâm Phục vụ hành chính công",
+      "functions": [
+        "một cửa, TTHC, dịch vụ công, tiếp nhận và trả kết quả"
+      ]
+    },
+    {
+      "id": "U183",
+      "name": "Trung tâm Cung ứng dịch vụ sự nghiệp công",
+      "functions": [
+        "dịch vụ sự nghiệp công, tuyên truyền, truyền thông, nhiệm vụ sự nghiệp được giao"
+      ]
+    },
+    {
+      "id": "U340",
+      "name": "Công an xã",
+      "functions": [
+        "an ninh trật tự, quản lý hành chính, PCCC, ATGT theo chức năng"
+      ]
+    },
+    {
+      "id": "U360",
+      "name": "Ban CHQS xã",
+      "functions": [
+        "quốc phòng, quân sự địa phương, dân quân, nghĩa vụ quân sự, phòng thủ dân sự"
+      ]
+    },
+    {
+      "id": "U260",
+      "name": "HĐND xã",
+      "functions": [
+        "hoạt động HĐND, Thường trực HĐND và các Ban HĐND"
+      ]
+    },
+    {
+      "id": "DUUBND",
+      "name": "Đảng ủy UBND xã Ea Ly",
+      "functions": [
+        "công tác Đảng nội bộ Đảng bộ/Đảng ủy UBND xã và chi bộ trực thuộc"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "name": "Chỉ phối hợp với đơn vị y tế chủ trì",
+      "expected": {
+        "taskScope": "coordination",
+        "actionRequired": false,
+        "trackRecommended": false,
+        "mainUnit": "U142",
+        "tasks": []
+      }
+    },
+    {
+      "name": "Phản hồi có điều kiện không bắt buộc",
+      "expected": {
+        "taskScope": "coordination",
+        "actionRequired": false,
+        "trackRecommended": false,
+        "tasks": []
+      }
+    }
+  ]
+}

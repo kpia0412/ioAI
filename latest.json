@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.67.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.67.0.zip",
-  "sha256": "507244d6283ae0bd2a135c0fb747fbe8ca5adabeeccc5718c9562cbd06bec521",
-  "notes": "Giao diện AI gọn hơn: bỏ checkbox AI hỗ trợ và nút fallback dư; Dừng màu đỏ; thông tin AI không lặp; lưu cấu hình tự tải lại; thêm nhập/xuất quy tắc AI riêng cho văn bản đến/đi. Giữ chuỗi API fallback v0.66.0."
+  "version": "0.68.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.68.0.zip",
+  "sha256": "754107caa83555766770f2d7dc341a1db192328f2fe0969f0cd66e1fc91b5788",
+  "notes": "Rule Pack văn bản đến tách độc lập; luôn gửi phần dữ liệu đã đọc; AI Input Selector chống trùng; đọc phụ lục theo dấu hiệu nhiệm vụ/hạn; cập nhật Rule Pack qua Internet."
 }
