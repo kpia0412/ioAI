@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.45.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.45.0.zip",
-  "sha256": "781cd74ee96a1d0e6a842f82fb75268c84e4d06c72406192a1b056723286d46e",
-  "notes": "Sửa đúng danh sách Xem để biết của Lãnh đạo theo DOM thực tế: dùng checkbox chkunitempxem<email|Uxxx>, đọc danh bạ riêng của Lãnh đạo, lưu khóa mặc định theo email/value, click checkbox thật và xác minh checked; không thay đổi luồng Chuyển."
+  "version": "0.50.2",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.50.2-Tracker-V7.0.5.zip",
+  "sha256": "cb1376ed40bce4fa05ebbce814375641760700d9c53113a487069c98cb07bea5",
+  "notes": "iOffice AI 0.50.2 - dong bo Tracker V7.0.5, toi uu So theo doi va tao nhiem vu."
 }
