@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.60.1",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.60.1.zip",
-  "sha256": "d289afa59e11491196f442bcb5d0bfb9d8ebc1ac50995371961d95d28a59417c",
-  "notes": "Local Rule Pro 0.60.0; tu bat theo doi khi co han; gui So ngam va lich su ben vung; mo So khong reload; chu dong dong y cap nhat ngay. Tuong thich Tracker 7.0.15."
+  "version": "0.61.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.61.0.zip",
+  "sha256": "d6c4d3d77e7a64fdcc2bd34748e7cbadcf5ed4cf95e9bf88c02bbca361211f37",
+  "notes": "Văn bản đi tự đối chiếu Sổ; chip trạng thái ở tiêu đề; bấm xem nhanh/xác nhận hoàn thành; giữ riêng Kiểm tra văn bản. Tương thích Tracker 7.0.15, khuyến nghị 7.0.16 để nhận diện cả nhiệm vụ đã hoàn thành."
 }
