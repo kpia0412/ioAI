@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "0.61.1",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.61.1.zip",
-  "sha256": "9fcb1a30a082e9a1bcd95049ec77f028825141a81cad1e75cbef55069ad43191",
-  "notes": "Thu gọn Lịch sử gửi Sổ; thông báo gửi thành công tự ẩn; sửa Gemini Web đếm đúng lượt gửi và tự tạo cuộc trò chuyện mới sau đủ số lượt cấu hình (mặc định 3). Tracker giữ nguyên 7.0.16."
+  "version": "0.62.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-0.62.0.zip",
+  "sha256": "7e3a5405afc08956ec46eeaaff96f4ae6321b9b96dde73b14e62ec6b9358faba",
+  "notes": "Đưa Phân tích AI/Kiểm tra thể thức lên thanh tiêu đề; tự thu gọn khi xử lý và tự mở khi xong; mini mode khi rời chi tiết/chuyển xong; thêm ghim vị trí; Ý kiến chỉ đạo tóm gọn nhưng giữ đủ đầu việc; Lịch sử gửi Sổ có Xóa tất cả. Giữ sửa Gemini Web sau 3 lượt từ 0.61.1."
 }
