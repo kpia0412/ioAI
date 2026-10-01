@@ -1,7 +1,7 @@
 {
   "format": "ioffice-ai-rules-release-v1",
-  "version": "2026.09.30.06",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ea-ly-rules-2026.09.30.06.json",
-  "sha256": "9eef8f36b26e39b582389d6c955f1460b223dcab2bdf1361e67a6d717f9b649c",
-  "notes": "Master Rule tối ưu: giữ quy tắc cốt lõi từ bản gọn và bản 94 rules, compiler thích ứng giảm token, nguồn tham chiếu không gửi AI."
+  "version": "1.0.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ea-ly-rules-1.0.0.json",
+  "sha256": "e786050a5322480d0eac67bac773af1698d7fc84c7178efef262385c1ba88538",
+  "notes": "Ea Ly Incoming Rules Stable 1.0: Master Rule thích ứng, 9 đầu mối, deadline evidence và phân luồng tối ưu."
 }
