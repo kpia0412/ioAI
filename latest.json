@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "1.3.1",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-1.3.1.zip",
-  "sha256": "7721bc00a061499c4c57fd1609113975fb93ccc27c642f9fe6327f44107280ab",
-  "notes": "Reader Hotfix 1.3.1: đọc PDF nhiều trang bằng PDF.js toàn văn, tự fallback Word/PDF cùng văn bản, tự retry viewer lạnh và không cần bấm Đọc tất cả để cứu lỗi."
+  "version": "1.3.2",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-1.3.2.zip",
+  "sha256": "523cd24bf309d6a7e2729874a0e421392189ada04c1639028a6443d33e7d291f",
+  "notes": "Reader Recovery: sửa Phân tích lần đầu không đọc được nhưng Đọc tất cả lại đọc được; Word/PDF cùng chính văn fallback tự động; sửa timeout PDF.js và nhận scan sai."
 }
