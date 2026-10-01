@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "1.0.1",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-1.0.1.zip",
-  "sha256": "6a87c352468d346ba43b3896df41e469c7c56efad78be722b22d521ace6a5354",
-  "notes": "Stable 1.0.1: Tracker có thanh cuộn ngang nổi; PDF scan không OCR và không gửi AI."
+  "version": "1.1.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-1.1.0.zip",
+  "sha256": "4cf06901eeeda4934fe8f1158d1c7bad392a711d03dabdf289ffb4feca231594",
+  "notes": "1.1.0: Primary Document Resolver v2, Sổ theo dõi dạng bật/tắt gọn, đọc tệp bổ sung thông minh theo nhiệm vụ/hạn."
 }
