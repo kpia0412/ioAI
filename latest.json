@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "1.1.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-1.1.0.zip",
-  "sha256": "4cf06901eeeda4934fe8f1158d1c7bad392a711d03dabdf289ffb4feca231594",
-  "notes": "1.1.0: Primary Document Resolver v2, Sổ theo dõi dạng bật/tắt gọn, đọc tệp bổ sung thông minh theo nhiệm vụ/hạn."
+  "version": "1.2.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-1.2.0.zip",
+  "sha256": "2277941097fe566ed590f61248430d565b82f85a521ab26f66a695601e6b1c76",
+  "notes": "1.2.0: tự đính kèm PDF chính thức vào Tracker, tách file AI đọc và file giao kèm; cổng đơn vị bỏ cột Thao tác, bấm Nội dung nhiệm vụ để mở chi tiết."
 }
