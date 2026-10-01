@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "1.3.2",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-1.3.2.zip",
-  "sha256": "523cd24bf309d6a7e2729874a0e421392189ada04c1639028a6443d33e7d291f",
-  "notes": "Reader Recovery: sửa Phân tích lần đầu không đọc được nhưng Đọc tất cả lại đọc được; Word/PDF cùng chính văn fallback tự động; sửa timeout PDF.js và nhận scan sai."
+  "version": "1.3.3",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-1.3.3.zip",
+  "sha256": "61583dff8e0c56cb3e82dd742e7b108edf5552a384e8d8e56ee467566a045960",
+  "notes": "DOM Primary Resolver: ưu tiên file chính do iOffice đánh dấu (tên đỏ/action chuyển xử lý), có ngoại lệ xác minh nếu tín hiệu DOM sai; gom duplicate fileId; phân biệt PDF scan thật với lỗi viewer và giảm đọc lan gây chậm."
 }
