@@ -1,7 +1,7 @@
 {
   "format": "ioffice-ai-rules-release-v1",
   "version": "1.0.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ea-ly-rules-1.0.0.json",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/rules-1.0.0.json",
   "sha256": "e786050a5322480d0eac67bac773af1698d7fc84c7178efef262385c1ba88538",
-  "notes": "Ea Ly Incoming Rules Stable 1.0: Master Rule thích ứng, 9 đầu mối, deadline evidence và phân luồng tối ưu."
+  "notes": "Rules 1.0.0 ổn định cho văn bản đến; đổi tên file phát hành thành rules-1.0.0.json, nội dung nghiệp vụ không đổi."
 }

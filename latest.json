@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "1.5.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-1.5.0.zip",
-  "sha256": "1e15ae789307c8387e1cd2d163475b5ba1d076b87ca4bd6defc89c4ba5e4d32e",
-  "notes": "Privacy Shield 2.0 fail-closed; khử nhận dạng local-first; chặn hồ sơ cá nhân rủi ro cao/scan ảnh/bí mật nhà nước/credential; Recipient Rules 1.1.0 feed riêng; phân công Đơn vị → Lĩnh vực → Người."
+  "version": "2.0.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.0.0.zip",
+  "sha256": "48a791a0dea6872761271808b544f8d686362d4676fa53c0a0f9c0223266d1e2",
+  "notes": "Extension 2.0.0: sửa hiển thị phiên bản theo manifest; Privacy Shield 2.1 khử nhận dạng + cảnh báo chi tiết nhưng không tự chặn gửi; chuẩn hóa ba thành phần Extension / Rules / Recipient."
 }

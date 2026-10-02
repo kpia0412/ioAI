@@ -1,0 +1,54 @@
+{
+  "format": "ioffice-recipient-rules-v1",
+  "version": "1.1.0",
+  "name": "Ea Ly · Recipient Roles",
+  "updatedAt": "2026-10-02",
+  "minConfidence": 0.86,
+  "policy": {
+    "alwaysKeepMainUnit": true,
+    "additionalRecipientOnly": true,
+    "requireSameUnit": true,
+    "neverSendPersonNameToAI": true,
+    "fallbackToUnitOnly": true
+  },
+  "roles": [
+    {"key":"U140-R01","unitId":"U140","label":"Tham mưu tổng hợp - chương trình công tác - đôn đốc","topics":["tham mưu tổng hợp","chương trình công tác","lịch công tác","báo cáo tổng hợp","đôn đốc","ý kiến chỉ đạo","thông báo kết luận","hành chính tổng hợp"]},
+    {"key":"U140-R02","unitId":"U140","label":"HĐND - pháp chế - tiếp công dân - đối ngoại - văn thư (nhóm dự phòng)","topics":["HĐND","kỳ họp","pháp chế","tiếp công dân","đối ngoại","văn thư","lưu trữ"]},
+    {"key":"U140-R03","unitId":"U140","label":"Tư pháp - hộ tịch - chứng thực - phổ biến pháp luật","topics":["tư pháp","hộ tịch","khai sinh","khai tử","kết hôn","chứng thực","phổ biến giáo dục pháp luật","PBGDPL"]},
+    {"key":"U140-R04","unitId":"U140","label":"Tiếp công dân - khiếu nại tố cáo - pháp chế","topics":["tiếp công dân","khiếu nại","tố cáo","đơn kiến nghị","đơn phản ánh","pháp chế","xử lý đơn"]},
+    {"key":"U140-R05","unitId":"U140","label":"Đối ngoại - lễ tân - quan hệ công tác","topics":["đối ngoại","kế hoạch đối ngoại","đoàn ra","đoàn vào","lễ tân","hợp tác quốc tế","quan hệ công tác"]},
+    {"key":"U140-R06","unitId":"U140","label":"Văn thư - lưu trữ tác nghiệp - con dấu - iOffice","topics":["văn thư","lưu trữ hiện hành","con dấu","phát hành văn bản","tiếp nhận văn bản","ioffice","hồ sơ công việc","số hóa văn bản"]},
+
+    {"key":"U141-R01","unitId":"U141","label":"Đất đai - hồ sơ địa chính","topics":["đất đai","GCNQSDĐ","hạn mức đất","hồ sơ địa chính","nguồn gốc đất","đo đạc","thửa đất","bản đồ địa chính"]},
+    {"key":"U141-R02","unitId":"U141","label":"Tài chính - ngân sách - tài sản công","topics":["ngân sách","dự toán","quyết toán","tài chính","tài sản công","giá","phí","lệ phí","mua sắm công"]},
+    {"key":"U141-R03","unitId":"U141","label":"Đầu tư - xây dựng - hạ tầng","topics":["đầu tư công","xây dựng","giao thông","hạ tầng","quy hoạch","công trình","cấp nước","nhà ở"]},
+    {"key":"U141-R04","unitId":"U141","label":"Nông nghiệp - thủy lợi - thiên tai - nông thôn","topics":["nông nghiệp","thủy lợi","chăn nuôi","trồng trọt","thiên tai","phòng chống thiên tai","nông thôn","khuyến nông"]},
+    {"key":"U141-R05","unitId":"U141","label":"Công thương - thương mại - năng lượng - vật liệu","topics":["công thương","cụm công nghiệp","vật liệu xây dựng","thương mại","điện","năng lượng","chợ","xăng dầu"]},
+    {"key":"U141-R06","unitId":"U141","label":"Tài nguyên - môi trường","topics":["môi trường","tài nguyên nước","khoáng sản","chất thải","rác thải","ô nhiễm","bảo vệ môi trường"]},
+    {"key":"U141-R07","unitId":"U141","label":"Kế hoạch - thống kê - kinh tế tập thể - hộ kinh doanh","topics":["kế hoạch phát triển kinh tế","thống kê","kinh tế tập thể","hợp tác xã","hộ kinh doanh","đăng ký kinh doanh","doanh nghiệp"]},
+
+    {"key":"U142-R01","unitId":"U142","label":"Giáo dục","topics":["giáo dục","trường học","học sinh","giáo viên","phổ cập giáo dục","đào tạo","mầm non","tiểu học","THCS"]},
+    {"key":"U142-R02","unitId":"U142","label":"Y tế - dân số - an toàn thực phẩm","topics":["y tế","khám chữa bệnh","dịch bệnh","dân số","an toàn thực phẩm","bảo hiểm y tế","trạm y tế"]},
+    {"key":"U142-R03","unitId":"U142","label":"Văn hóa - thông tin - chuyển đổi số","topics":["văn hóa","thể thao","du lịch","thông tin","truyền thông","chuyển đổi số","khoa học công nghệ","thông tin cơ sở"]},
+    {"key":"U142-R04","unitId":"U142","label":"An sinh - bảo trợ - người có công - trẻ em","topics":["an sinh xã hội","bảo trợ xã hội","lao động","việc làm","người có công","giảm nghèo","hộ nghèo","hộ cận nghèo","trẻ em"]},
+    {"key":"U142-R05","unitId":"U142","label":"Nội vụ - công vụ - CCHC - thi đua - hội","topics":["nội vụ","cán bộ công chức","công vụ","cải cách hành chính","CCHC","thi đua khen thưởng","hội","tổ chức bộ máy"]},
+    {"key":"U142-R06","unitId":"U142","label":"Dân tộc - tôn giáo - tín ngưỡng","topics":["dân tộc","tôn giáo","tín ngưỡng","cơ sở tôn giáo","người dân tộc thiểu số"]},
+    {"key":"U142-R07","unitId":"U142","label":"Quản lý nhà nước về văn thư - lưu trữ","topics":["quản lý nhà nước văn thư","quản lý nhà nước lưu trữ","kiểm tra văn thư lưu trữ","nghiệp vụ lưu trữ","chỉnh lý tài liệu"]},
+
+    {"key":"U120-R01","unitId":"U120","label":"Một cửa - thủ tục hành chính - dịch vụ công","topics":["một cửa","dịch vụ công","thủ tục hành chính","TTHC","tiếp nhận hồ sơ","trả kết quả","số hóa hồ sơ","hồ sơ trễ hạn"]},
+
+    {"key":"U183-R01","unitId":"U183","label":"Dịch vụ sự nghiệp công","topics":["dịch vụ sự nghiệp công","cung ứng dịch vụ","hoạt động sự nghiệp","phục vụ công cộng","dịch vụ công ích"]},
+    {"key":"U183-R02","unitId":"U183","label":"Truyền thanh - tuyên truyền - văn hóa thể thao - sự kiện","topics":["truyền thanh","phát thanh","tuyên truyền","văn nghệ","thể thao","sự kiện","trang trí","cổ động trực quan"]},
+
+    {"key":"U340-R01","unitId":"U340","label":"An ninh - trật tự - phòng chống tội phạm - an ninh mạng","topics":["an ninh trật tự","công an","phòng chống tội phạm","an ninh mạng","bảo vệ dữ liệu","quản lý hành chính về trật tự xã hội"]},
+    {"key":"U340-R02","unitId":"U340","label":"Cư trú - dân cư - căn cước - định danh - Đề án 06","topics":["cư trú","dân cư","căn cước","định danh điện tử","Đề án 06","VNeID","dữ liệu dân cư"]},
+    {"key":"U340-R03","unitId":"U340","label":"PCCC - cứu nạn cứu hộ","topics":["PCCC","phòng cháy chữa cháy","CNCH","cứu nạn cứu hộ","an toàn cháy nổ"]},
+    {"key":"U340-R04","unitId":"U340","label":"An toàn giao thông - trật tự giao thông","topics":["ATGT","an toàn giao thông","trật tự giao thông","tuần tra giao thông","vi phạm giao thông"]},
+
+    {"key":"U360-R01","unitId":"U360","label":"Quân sự - quốc phòng - dân quân - nghĩa vụ quân sự","topics":["quân sự","quốc phòng","dân quân","nghĩa vụ quân sự","tuyển quân","dự bị động viên","huấn luyện","sẵn sàng chiến đấu"]},
+
+    {"key":"U260-R01","unitId":"U260","label":"HĐND xã - kỳ họp - giám sát - cử tri","topics":["HĐND xã","thường trực HĐND","ban HĐND","kỳ họp","thẩm tra","giám sát HĐND","chất vấn","cử tri"]},
+
+    {"key":"DUUBND-R01","unitId":"DUUBND","label":"Đảng ủy UBND - công tác Đảng nội bộ","topics":["Đảng ủy UBND","Đảng bộ UBND","công tác đảng trong UBND","chi bộ trực thuộc","sinh hoạt chi bộ","đảng viên"]}
+  ]
+}
