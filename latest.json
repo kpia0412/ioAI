@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.2.5",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.5.zip",
-  "sha256": "962b3f02eef2d67969690d6b70f1d79ef8c8ade231640333906303cadcbd1c93",
-  "notes": "Giao diện 2.2.5: đưa Đối chiếu Sổ trở lại cạnh phiên bản; Sổ mở dạng overlay để giữ nguyên AI phía sau; làm mới nút Dừng đỏ với biểu tượng căn giữa. Giữ nguyên các thay đổi của 2.2.4."
+  "version": "2.2.6",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.6.zip",
+  "sha256": "ca6f3aa5112c5093cecd40c41c9dec2fd85694d947c2968fbf65393d9d034203",
+  "notes": "Giao diện 2.2.6: làm nút Đối chiếu Sổ cạnh phiên bản rõ hơn và có kích thước cố định; trạng thái dài tự xuống dòng trong nút; thêm tay kéo dọc chỉnh độ cao header; ghim sẽ khóa cả di chuyển và resize. Giữ nguyên overlay Sổ và logic AI/Tracker của 2.2.5."
 }
