@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.2.3",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.3.zip",
-  "sha256": "4897670892f2d5343b89b1f5576422d132382374568d5eef86c8ebd0205f5fdb",
-  "notes": "Tinh chỉnh header: cụm iOffice AI và phiên bản thành 2 tầng với nhãn Văn bản đến/đi bên dưới; trạng thái Không có VB liên quan xuống 2 dòng; mở/đóng Sổ đồng bộ mở/thu gọn tiện ích; nút ghim dùng trạng thái bật/tắt và luôn giữ biểu tượng ghim."
+  "version": "2.2.4",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.4.zip",
+  "sha256": "77d15826d9a2602fd46b19d338b2bbf78db63515e6986014ce6fe18064974fe7",
+  "notes": "Giao diện 2.2.4: Gemini Web hiển thị đúng kênh phân tích thay vì tên model; bỏ chọn API/Web khỏi màn hình chính và chỉ cấu hình trong Cài đặt; hàng Áp dụng luôn bám đầu vùng cuộn. Giữ nguyên các chỉnh sửa của 2.2.3."
 }
