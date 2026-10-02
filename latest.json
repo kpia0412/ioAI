@@ -1,10 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "1.4.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-1.4.0.zip",
-  "sha256": "ed4765932f6d07c7e11e92b99e6f3510da03e056a7d9fcf3d49e4a758329987e",
-  "notes": "Privacy Shield local-first; Recipient Rules cap nhat rieng; phan cong ca nhan bang ma an danh; cap nhat ngam khong hien thong bao tren iOffice; them Copy gui AI/Copy nhan AI trong Tien trinh xu ly.",
-  "recipientRulesUrl": "https://kpia0412.github.io/ioAI/recipient-rules.json",
-  "recipientRulesVersion": "1.0.0",
-  "recipientRulesSha256": "80f23547f84fef81e2e43bfe3b3aea660bd1945ec82e1fd8adeabff62a9f890f"
+  "version": "1.5.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-1.5.0.zip",
+  "sha256": "1e15ae789307c8387e1cd2d163475b5ba1d076b87ca4bd6defc89c4ba5e4d32e",
+  "notes": "Privacy Shield 2.0 fail-closed; khử nhận dạng local-first; chặn hồ sơ cá nhân rủi ro cao/scan ảnh/bí mật nhà nước/credential; Recipient Rules 1.1.0 feed riêng; phân công Đơn vị → Lĩnh vực → Người."
 }

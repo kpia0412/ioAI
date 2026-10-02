@@ -1,0 +1,7 @@
+{
+  "format": "ioffice-recipient-release-v1",
+  "version": "1.1.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/recipient-rules-1.1.0.json",
+  "sha256": "0e393356afa9ef033345dd84cf611a7de791aaca7a21d06baa422e039b355a30",
+  "notes": "30 lĩnh vực nghiệp vụ; mã nội bộ ẩn với người dùng; không chứa tên/ID/email/SĐT người thật; dùng local binding Đơn vị → Lĩnh vực → Người."
+}
