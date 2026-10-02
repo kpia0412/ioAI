@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.0.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.0.0.zip",
-  "sha256": "48a791a0dea6872761271808b544f8d686362d4676fa53c0a0f9c0223266d1e2",
-  "notes": "Extension 2.0.0: sửa hiển thị phiên bản theo manifest; Privacy Shield 2.1 khử nhận dạng + cảnh báo chi tiết nhưng không tự chặn gửi; chuẩn hóa ba thành phần Extension / Rules / Recipient."
+  "version": "2.1.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.1.0.zip",
+  "sha256": "60f60ebfe5145275fbb9553239a0a66073518678095f4d18079a2437d2687241",
+  "notes": "Đại tu Cài đặt: bố cục gọn theo nhóm; bỏ chỉnh Rules thủ công; phân công hiển thị rõ người đã gắn và hỗ trợ ngoại lệ khác đơn vị; Tiến trình xử lý chi tiết; tự động cập nhật luôn bật."
 }
