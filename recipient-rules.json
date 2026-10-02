@@ -1,0 +1,34 @@
+{
+  "format": "ioffice-recipient-rules-v1",
+  "version": "1.0.0",
+  "name": "Ea Ly · Recipient Roles",
+  "updatedAt": "2026-10-02",
+  "minConfidence": 0.85,
+  "policy": {
+    "alwaysKeepMainUnit": true,
+    "additionalRecipientOnly": true,
+    "requireSameUnit": true,
+    "neverSendPersonNameToAI": true,
+    "fallbackToUnitOnly": true
+  },
+  "roles": [
+    {"key":"U140-R01","unitId":"U140","label":"Tham mưu tổng hợp","topics":["tham mưu tổng hợp","chương trình công tác","báo cáo tổng hợp","đôn đốc","ý kiến chỉ đạo"]},
+    {"key":"U140-R02","unitId":"U140","label":"HĐND - pháp chế - tiếp công dân - đối ngoại - văn thư","topics":["HĐND","kỳ họp","pháp chế","tiếp công dân","đối ngoại","văn thư","lưu trữ"]},
+    {"key":"U141-R01","unitId":"U141","label":"Đất đai - tài nguyên","topics":["đất đai","GCNQSDĐ","hạn mức đất","hồ sơ địa chính","nguồn gốc đất","đo đạc","tài nguyên"]},
+    {"key":"U141-R02","unitId":"U141","label":"Tài chính - ngân sách - tài sản công","topics":["ngân sách","dự toán","quyết toán","tài chính","tài sản công","giá","phí","lệ phí"]},
+    {"key":"U141-R03","unitId":"U141","label":"Đầu tư - xây dựng - hạ tầng","topics":["đầu tư công","xây dựng","giao thông","hạ tầng","quy hoạch","công trình","cấp nước"]},
+    {"key":"U141-R04","unitId":"U141","label":"Nông nghiệp - thủy lợi - thiên tai","topics":["nông nghiệp","thủy lợi","chăn nuôi","trồng trọt","thiên tai","phòng chống thiên tai","nông thôn"]},
+    {"key":"U141-R05","unitId":"U141","label":"Công thương - cụm công nghiệp - vật liệu","topics":["công thương","cụm công nghiệp","vật liệu xây dựng","thương mại","điện","năng lượng"]},
+    {"key":"U142-R01","unitId":"U142","label":"Giáo dục","topics":["giáo dục","trường học","học sinh","giáo viên","phổ cập giáo dục","đào tạo"]},
+    {"key":"U142-R02","unitId":"U142","label":"Y tế - dân số","topics":["y tế","khám chữa bệnh","dịch bệnh","dân số","an toàn thực phẩm","bảo hiểm y tế"]},
+    {"key":"U142-R03","unitId":"U142","label":"Văn hóa - thông tin - chuyển đổi số","topics":["văn hóa","thể thao","du lịch","thông tin","truyền thông","chuyển đổi số","khoa học công nghệ"]},
+    {"key":"U142-R04","unitId":"U142","label":"An sinh - lao động - người có công","topics":["an sinh xã hội","bảo trợ xã hội","lao động","việc làm","người có công","giảm nghèo","trẻ em"]},
+    {"key":"U142-R05","unitId":"U142","label":"Nội vụ - CCHC","topics":["nội vụ","cán bộ công chức","cải cách hành chính","CCHC","thi đua khen thưởng","hội","tổ chức bộ máy"]},
+    {"key":"U120-R01","unitId":"U120","label":"Một cửa - thủ tục hành chính","topics":["một cửa","dịch vụ công","thủ tục hành chính","TTHC","tiếp nhận hồ sơ","trả kết quả"]},
+    {"key":"U183-R01","unitId":"U183","label":"Dịch vụ sự nghiệp công","topics":["dịch vụ sự nghiệp công","cung ứng dịch vụ","hoạt động sự nghiệp","phục vụ công cộng"]},
+    {"key":"U340-R01","unitId":"U340","label":"An ninh - trật tự - PCCC - ATGT","topics":["an ninh trật tự","công an","PCCC","cứu nạn cứu hộ","ATGT","dữ liệu dân cư","phòng chống tội phạm"]},
+    {"key":"U360-R01","unitId":"U360","label":"Quân sự - quốc phòng","topics":["quân sự","quốc phòng","dân quân","nghĩa vụ quân sự","phòng thủ dân sự"]},
+    {"key":"U260-R01","unitId":"U260","label":"HĐND xã","topics":["HĐND xã","thường trực HĐND","ban HĐND","giám sát HĐND"]},
+    {"key":"DUUBND-R01","unitId":"DUUBND","label":"Đảng ủy UBND","topics":["Đảng ủy UBND","công tác đảng trong UBND","chỉ đạo của Đảng ủy UBND"]}
+  ]
+}

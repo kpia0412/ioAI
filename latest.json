@@ -1,7 +1,10 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "1.3.3",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-1.3.3.zip",
-  "sha256": "61583dff8e0c56cb3e82dd742e7b108edf5552a384e8d8e56ee467566a045960",
-  "notes": "DOM Primary Resolver: ưu tiên file chính do iOffice đánh dấu (tên đỏ/action chuyển xử lý), có ngoại lệ xác minh nếu tín hiệu DOM sai; gom duplicate fileId; phân biệt PDF scan thật với lỗi viewer và giảm đọc lan gây chậm."
+  "version": "1.4.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-1.4.0.zip",
+  "sha256": "ed4765932f6d07c7e11e92b99e6f3510da03e056a7d9fcf3d49e4a758329987e",
+  "notes": "Privacy Shield local-first; Recipient Rules cap nhat rieng; phan cong ca nhan bang ma an danh; cap nhat ngam khong hien thong bao tren iOffice; them Copy gui AI/Copy nhan AI trong Tien trinh xu ly.",
+  "recipientRulesUrl": "https://kpia0412.github.io/ioAI/recipient-rules.json",
+  "recipientRulesVersion": "1.0.0",
+  "recipientRulesSha256": "80f23547f84fef81e2e43bfe3b3aea660bd1945ec82e1fd8adeabff62a9f890f"
 }
