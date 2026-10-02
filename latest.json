@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.2.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.0.zip",
-  "sha256": "a67b7d8fbd0291bf5a0e20b2d62e9c42f809cbd900f180fbe936549384b99092",
-  "notes": "Đại tu phân công cá nhân: một lĩnh vực chọn nhiều người, tìm kiếm cán bộ; sửa giao diện Ý kiến chỉ đạo; gom API với Tracker; bỏ tự tăng model/legacy Rules; tóm tắt văn bản sạch mã kỹ thuật; kiểm tra văn bản đi chấm 100 điểm và liệt kê lỗi rõ ràng."
+  "version": "2.2.2",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.2.zip",
+  "sha256": "eb979c99d10011e2238e19e26fba3971fa5cd5e55ef8ad8229d5d1ff9e512ddd",
+  "notes": "Làm mới thanh tiêu đề blue-teal theo mẫu 2.2.1: bo góc đẹp khi mở/thu gọn, nút đồng bộ; bỏ bôi đậm tự động trong Tóm tắt văn bản; nâng prompt AI để tóm tắt đúng nghĩa, đầy đủ hơn và không lẫn lý do phân luồng."
 }
