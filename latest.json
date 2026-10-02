@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.2.2",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.2.zip",
-  "sha256": "eb979c99d10011e2238e19e26fba3971fa5cd5e55ef8ad8229d5d1ff9e512ddd",
-  "notes": "Làm mới thanh tiêu đề blue-teal theo mẫu 2.2.1: bo góc đẹp khi mở/thu gọn, nút đồng bộ; bỏ bôi đậm tự động trong Tóm tắt văn bản; nâng prompt AI để tóm tắt đúng nghĩa, đầy đủ hơn và không lẫn lý do phân luồng."
+  "version": "2.2.3",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.3.zip",
+  "sha256": "4897670892f2d5343b89b1f5576422d132382374568d5eef86c8ebd0205f5fdb",
+  "notes": "Tinh chỉnh header: cụm iOffice AI và phiên bản thành 2 tầng với nhãn Văn bản đến/đi bên dưới; trạng thái Không có VB liên quan xuống 2 dòng; mở/đóng Sổ đồng bộ mở/thu gọn tiện ích; nút ghim dùng trạng thái bật/tắt và luôn giữ biểu tượng ghim."
 }
