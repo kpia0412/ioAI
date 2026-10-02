@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.1.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.1.0.zip",
-  "sha256": "60f60ebfe5145275fbb9553239a0a66073518678095f4d18079a2437d2687241",
-  "notes": "Đại tu Cài đặt: bố cục gọn theo nhóm; bỏ chỉnh Rules thủ công; phân công hiển thị rõ người đã gắn và hỗ trợ ngoại lệ khác đơn vị; Tiến trình xử lý chi tiết; tự động cập nhật luôn bật."
+  "version": "2.2.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.0.zip",
+  "sha256": "a67b7d8fbd0291bf5a0e20b2d62e9c42f809cbd900f180fbe936549384b99092",
+  "notes": "Đại tu phân công cá nhân: một lĩnh vực chọn nhiều người, tìm kiếm cán bộ; sửa giao diện Ý kiến chỉ đạo; gom API với Tracker; bỏ tự tăng model/legacy Rules; tóm tắt văn bản sạch mã kỹ thuật; kiểm tra văn bản đi chấm 100 điểm và liệt kê lỗi rõ ràng."
 }
