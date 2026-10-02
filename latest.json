@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.2.4",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.4.zip",
-  "sha256": "77d15826d9a2602fd46b19d338b2bbf78db63515e6986014ce6fe18064974fe7",
-  "notes": "Giao diện 2.2.4: Gemini Web hiển thị đúng kênh phân tích thay vì tên model; bỏ chọn API/Web khỏi màn hình chính và chỉ cấu hình trong Cài đặt; hàng Áp dụng luôn bám đầu vùng cuộn. Giữ nguyên các chỉnh sửa của 2.2.3."
+  "version": "2.2.5",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.5.zip",
+  "sha256": "962b3f02eef2d67969690d6b70f1d79ef8c8ade231640333906303cadcbd1c93",
+  "notes": "Giao diện 2.2.5: đưa Đối chiếu Sổ trở lại cạnh phiên bản; Sổ mở dạng overlay để giữ nguyên AI phía sau; làm mới nút Dừng đỏ với biểu tượng căn giữa. Giữ nguyên các thay đổi của 2.2.4."
 }
