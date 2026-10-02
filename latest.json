@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.2.7",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.7.zip",
-  "sha256": "9bf71aae2758a39abc8396a9d3a7ac160f9c58e35cd3510d7782b7ebe42f5a48",
-  "notes": "Giao diện 2.2.7: Đối chiếu Sổ vẫn cạnh phiên bản nhưng thành nút lớn cùng cấp với nút Phân tích/Kiểm tra; trạng thái dài tự xuống dòng trong nút. Nút Kiểm tra văn bản tự xuống dòng và giảm cỡ chữ ở giao diện hẹp thay vì bị cắt dấu ba chấm."
+  "version": "2.2.8",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.8.zip",
+  "sha256": "1af5751ad1868b3421de67d41c152df036e41d90e574ff8f48d3cf76cbd552d1",
+  "notes": "Giao diện 2.2.8: Đối chiếu Sổ vẫn cạnh cụm phiên bản nhưng được căn giữa theo chiều dọc như nút Phân tích/Kiểm tra. Thanh tiêu đề mặc định thấp hơn; trạng thái dài vẫn tự xuống dòng trong nút và không kéo rộng header."
 }
