@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.2.6",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.6.zip",
-  "sha256": "ca6f3aa5112c5093cecd40c41c9dec2fd85694d947c2968fbf65393d9d034203",
-  "notes": "Giao diện 2.2.6: làm nút Đối chiếu Sổ cạnh phiên bản rõ hơn và có kích thước cố định; trạng thái dài tự xuống dòng trong nút; thêm tay kéo dọc chỉnh độ cao header; ghim sẽ khóa cả di chuyển và resize. Giữ nguyên overlay Sổ và logic AI/Tracker của 2.2.5."
+  "version": "2.2.7",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.7.zip",
+  "sha256": "9bf71aae2758a39abc8396a9d3a7ac160f9c58e35cd3510d7782b7ebe42f5a48",
+  "notes": "Giao diện 2.2.7: Đối chiếu Sổ vẫn cạnh phiên bản nhưng thành nút lớn cùng cấp với nút Phân tích/Kiểm tra; trạng thái dài tự xuống dòng trong nút. Nút Kiểm tra văn bản tự xuống dòng và giảm cỡ chữ ở giao diện hẹp thay vì bị cắt dấu ba chấm."
 }
