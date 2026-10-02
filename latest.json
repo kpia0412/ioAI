@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.2.8",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.8.zip",
-  "sha256": "1af5751ad1868b3421de67d41c152df036e41d90e574ff8f48d3cf76cbd552d1",
-  "notes": "Giao diện 2.2.8: Đối chiếu Sổ vẫn cạnh cụm phiên bản nhưng được căn giữa theo chiều dọc như nút Phân tích/Kiểm tra. Thanh tiêu đề mặc định thấp hơn; trạng thái dài vẫn tự xuống dòng trong nút và không kéo rộng header."
+  "version": "2.2.9",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.9.zip",
+  "sha256": "4fafcf9e63b977f2508431f43d0fe0a114a85ece6dcbd11787723b9dfab422b4",
+  "notes": "Giao diện phân công 2.2.9: bỏ avatar chữ cái, làm sạch tên cán bộ bị lặp và chỉ hiển thị một lần tên với đơn vị ở dòng dưới. Không thay đổi logic phân công."
 }
