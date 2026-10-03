@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "3.0.2",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-3.0.2.zip",
-  "sha256": "41ce8f484f779c221bb7cfd9fb00dbc1c5fbc429a3f85d0ec1aac08b9e2d67f6",
-  "notes": "Từ nền sạch 3.0.0: PDF scan chỉ dùng OCR gốc iOffice. Khi người dùng đồng ý OCR, tiện ích ưu tiên đúng PDF.js viewer đang hiển thị, bật config_display_lay_vbtc=1 trước khi reload chính viewer, chờ ocr.js/Tesseract tiếng Việt của iOffice và lấy trực tiếp ocrResults.data.text. Bỏ Tesseract worker riêng của tiện ích; giữ luồng đọc file thường không đổi."
+  "version": "3.0.3",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-3.0.3.zip",
+  "sha256": "c2a9b5c2393e2b3759570549c70e3fa138ed36a1712f6f08a2e807dac7806345",
+  "notes": "Sửa lỗi PDF scan bị timeout trước khi kịp xác nhận: không chờ pdf.getData() ở bước phát hiện scan/OCR; trả scan ngay khi PDF.js đã kiểm tra lớp chữ rỗng, dùng kích thước /viewfile từ Performance API khi có. OCR vẫn dùng đúng ocr.js/Tesseract gốc iOffice."
 }
