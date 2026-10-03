@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "3.0.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-3.0.0.zip",
-  "sha256": "0c32b6046b16f6c85680db0b5a2f9ad3ea8181215109f4f1cd00e311b68358fc",
-  "notes": "Từ nền 2.5.0: sửa chọn người tham mưu giống Chọn cá nhân Xem để biết; đồng bộ danh bạ email với Tracker V45, nút Đồng bộ danh bạ ngay trong bảng chọn cá nhân, báo số người nhận/bỏ qua và lỗi, thử lại khi gửi thất bại. Giữ phần đọc PDF scan/OCR của 2.5.0."
+  "version": "3.0.1",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-3.0.1.zip",
+  "sha256": "e3b26650a7cc60be481ec04152839f173451202a8cb401808b02f8f5f4115f37",
+  "notes": "Sửa triệt để đọc PDF scan từ nền 3.0.0: dùng lại đúng PDF.js viewer đang mở, thêm bridge DOM MAIN↔content dự phòng khi postMessage bị lỡ, xác nhận scan bằng PDF.js rồi mới hiện [Đọc bằng OCR]/[Bỏ qua], OCR tiếng Việt bằng cache iOffice hoặc Tesseract từng trang, hỗ trợ PDF hỗn hợp, lỗi từng trang, Dừng và giới hạn 10 MB."
 }
