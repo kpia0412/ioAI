@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.3.2",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.3.2.zip",
-  "sha256": "61422f3a58e6a614612b63fb5639f67dd5ee9cd85c2ab2218a5f33d9653ea77f",
-  "notes": "Sửa tên cán bộ/đơn vị bị lặp trong danh sách chọn; làm sạch cache và phân công; loại trùng người tham mưu; tương thích Tracker V8.0.2 sửa migrateToV8."
+  "version": "2.4.1",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.4.1.zip",
+  "sha256": "d94ddb5e49cbcdd0e2cc729c550ef638fc36b360fb6cc864f964bdc7e4ef80ea",
+  "notes": "Bản làm lại đúng nền Tracker 8.1.8 → 8.1.9. Thêm lịch họp AI văn bản đến/đi, chọn lãnh đạo, xe Văn phòng, cảnh báo trùng và xem tài liệu ngay trong Tracker."
 }
