@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.4.2",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.4.2.zip",
-  "sha256": "3fbe89b2930bc902f2917d91b4de7877581d73e7da879b5947a10319b0a38158",
-  "notes": "Thiết kế lại lịch họp AI; tải giấy mời và dùng API Admin chung; nút lịch cạnh Sổ theo dõi; giờ 24h; bỏ trường thừa; sửa mất meetings. Tracker 8.1.10 trên nền 8.1.8."
+  "version": "2.4.3",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.4.3.zip",
+  "sha256": "4ab14044899b3c8eaae3d9cf9ff7a525ef4a0ed06d299ad8670f9ac407b6b95e",
+  "notes": "Lịch họp mở riêng như Sổ theo dõi; icon SVG sáng khi có lịch; một văn bản một cuộc họp; meeting.json dùng chung với Tracker 8.1.11; API Admin."
 }
