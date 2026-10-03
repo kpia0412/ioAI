@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.4.5",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.4.5.zip",
-  "sha256": "1766287ca7aa023be2892e3804e24594e1655f7a436bbd775125e49bc4667a26",
-  "notes": "Dynamic Island 3 slot cố định; nút Sổ/Lịch lớn mở giao diện chính, nút nhỏ mở xác nhận nhanh và sáng khi có thông tin; hiển thị Model/Rule/Recipient/Meet; sửa danh sách Xem để biết ưu tiên dữ liệu live từ iOffice và chỉ đồng bộ bản sao sang Tracker."
+  "version": "2.4.6",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.4.6.zip",
+  "sha256": "432c7b59324753cadbeae5c2d70a81ce2a53b3abb9f53c05e3abf4530aecb621",
+  "notes": "Sửa bố cục thanh tiêu đề một hàng: Sổ theo dõi, Lịch họp, Phân tích AI/Kiểm tra văn bản, Ghim và Cài đặt cùng nằm trên thanh chính; nút Sổ/Lịch có nút nhanh liền cạnh; khối Phân tích AI/Kiểm tra văn bản tách hai vùng hover độc lập; giữ kích thước nút cố định, ưu tiên giao diện gọn và ổn định."
 }
