@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.2.9",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.2.9.zip",
-  "sha256": "4fafcf9e63b977f2508431f43d0fe0a114a85ece6dcbd11787723b9dfab422b4",
-  "notes": "Giao diện phân công 2.2.9: bỏ avatar chữ cái, làm sạch tên cán bộ bị lặp và chỉ hiển thị một lần tên với đơn vị ở dòng dưới. Không thay đổi logic phân công."
+  "version": "2.3.1",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.3.1.zip",
+  "sha256": "740cdeb5d22452087d8d58df76cf2c7ee0de0ff11499603c1c7be2d491a71693",
+  "notes": "XLC một hàng 50/50; người tham mưu tối đa 2 chip +N; toggle LĐ phòng chỉ ở Xem để biết; phân công chuyên viên/lãnh đạo mặc định đồng bộ qua Tracker V8.0.1; Tùy chọn tự kiểm tra kết nối."
 }
