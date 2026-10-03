@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.4.6",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.4.6.zip",
-  "sha256": "432c7b59324753cadbeae5c2d70a81ce2a53b3abb9f53c05e3abf4530aecb621",
-  "notes": "Sửa bố cục thanh tiêu đề một hàng: Sổ theo dõi, Lịch họp, Phân tích AI/Kiểm tra văn bản, Ghim và Cài đặt cùng nằm trên thanh chính; nút Sổ/Lịch có nút nhanh liền cạnh; khối Phân tích AI/Kiểm tra văn bản tách hai vùng hover độc lập; giữ kích thước nút cố định, ưu tiên giao diện gọn và ổn định."
+  "version": "2.4.7",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.4.7.zip",
+  "sha256": "853d94ea115e233ea128eab823037f3e6775509c999981055f96aff0a2be3b46",
+  "notes": "Bổ sung đọc PDF scan có kiểm soát: chỉ hỏi OCR khi tệp scan thực sự cần đọc hoặc người dùng chọn Đọc tất cả; thanh Đọc bằng OCR/Bỏ qua nằm ngay dưới tiêu đề; OCR tiếng Việt bằng Tesseract của iOffice, ưu tiên cache đủ trang, xử lý tuần tự, không tự chuyển Xem dạng copy được; tệp trên 10 MB luôn bỏ qua."
 }
