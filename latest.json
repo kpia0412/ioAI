@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.4.7",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.4.7.zip",
-  "sha256": "853d94ea115e233ea128eab823037f3e6775509c999981055f96aff0a2be3b46",
-  "notes": "Bổ sung đọc PDF scan có kiểm soát: chỉ hỏi OCR khi tệp scan thực sự cần đọc hoặc người dùng chọn Đọc tất cả; thanh Đọc bằng OCR/Bỏ qua nằm ngay dưới tiêu đề; OCR tiếng Việt bằng Tesseract của iOffice, ưu tiên cache đủ trang, xử lý tuần tự, không tự chuyển Xem dạng copy được; tệp trên 10 MB luôn bỏ qua."
+  "version": "2.4.8",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.4.8.zip",
+  "sha256": "ebaa64355cf62a355c58cd0e9fe3bde43b5b3bbce880b4bee2e18908aec5609a",
+  "notes": "Sửa thanh tiêu đề thành 3 nút lớn cố định: Dynamic Sổ, Dynamic Lịch và AI/Kiểm tra. Dynamic Sổ chỉ hiện ở Văn bản đi; Dynamic Lịch chỉ hiện khi AI phát hiện lịch họp. Khi phát hiện, nút sáng, có chấm thông báo và tự mở bảng nhanh một lần. Đưa nút quản lý Sổ/Lịch về góc phải giữa AI và Ghim. Tách thật Phân tích AI và Kiểm tra văn bản thành hai vùng hover/click độc lập; Văn bản đi bấm ✨ chạy phân tích nội dung AI thật, không còn chạy nhầm Kiểm tra văn bản. Giữ nguyên DOM nhận diện và pipeline đọc FILE TRÌNH KÝ."
 }
