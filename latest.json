@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "3.0.1",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-3.0.1.zip",
-  "sha256": "e3b26650a7cc60be481ec04152839f173451202a8cb401808b02f8f5f4115f37",
-  "notes": "Sửa triệt để đọc PDF scan từ nền 3.0.0: dùng lại đúng PDF.js viewer đang mở, thêm bridge DOM MAIN↔content dự phòng khi postMessage bị lỡ, xác nhận scan bằng PDF.js rồi mới hiện [Đọc bằng OCR]/[Bỏ qua], OCR tiếng Việt bằng cache iOffice hoặc Tesseract từng trang, hỗ trợ PDF hỗn hợp, lỗi từng trang, Dừng và giới hạn 10 MB."
+  "version": "3.0.2",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-3.0.2.zip",
+  "sha256": "41ce8f484f779c221bb7cfd9fb00dbc1c5fbc429a3f85d0ec1aac08b9e2d67f6",
+  "notes": "Từ nền sạch 3.0.0: PDF scan chỉ dùng OCR gốc iOffice. Khi người dùng đồng ý OCR, tiện ích ưu tiên đúng PDF.js viewer đang hiển thị, bật config_display_lay_vbtc=1 trước khi reload chính viewer, chờ ocr.js/Tesseract tiếng Việt của iOffice và lấy trực tiếp ocrResults.data.text. Bỏ Tesseract worker riêng của tiện ích; giữ luồng đọc file thường không đổi."
 }
