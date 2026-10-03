@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.5.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.5.0.zip",
-  "sha256": "0c3b0aaac0f1331e9db20188f355b0ed88820db6d6a2d04f3dfd9226f9d40ad6",
-  "notes": "Nâng cấp đọc PDF scan: ghép đúng token file gốc với viewer Base64 của iOffice, tái sử dụng PDF.js đang mở để tránh tải lặp; phát hiện scan bằng lớp chữ PDF; chỉ hỏi OCR khi tệp scan thật sự cần; OCR Tesseract tiếng Việt tuần tự theo trang, có tiến trình/Dừng, tiếp tục khi một trang lỗi, ưu tiên cache OCR iOffice và giới hạn 10 MB. Giữ nguyên luồng đọc file thường và giao diện 2.4.9."
+  "version": "3.0.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-3.0.0.zip",
+  "sha256": "0c32b6046b16f6c85680db0b5a2f9ad3ea8181215109f4f1cd00e311b68358fc",
+  "notes": "Từ nền 2.5.0: sửa chọn người tham mưu giống Chọn cá nhân Xem để biết; đồng bộ danh bạ email với Tracker V45, nút Đồng bộ danh bạ ngay trong bảng chọn cá nhân, báo số người nhận/bỏ qua và lỗi, thử lại khi gửi thất bại. Giữ phần đọc PDF scan/OCR của 2.5.0."
 }
