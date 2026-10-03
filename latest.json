@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.4.8",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.4.8.zip",
-  "sha256": "ebaa64355cf62a355c58cd0e9fe3bde43b5b3bbce880b4bee2e18908aec5609a",
-  "notes": "Sửa thanh tiêu đề thành 3 nút lớn cố định: Dynamic Sổ, Dynamic Lịch và AI/Kiểm tra. Dynamic Sổ chỉ hiện ở Văn bản đi; Dynamic Lịch chỉ hiện khi AI phát hiện lịch họp. Khi phát hiện, nút sáng, có chấm thông báo và tự mở bảng nhanh một lần. Đưa nút quản lý Sổ/Lịch về góc phải giữa AI và Ghim. Tách thật Phân tích AI và Kiểm tra văn bản thành hai vùng hover/click độc lập; Văn bản đi bấm ✨ chạy phân tích nội dung AI thật, không còn chạy nhầm Kiểm tra văn bản. Giữ nguyên DOM nhận diện và pipeline đọc FILE TRÌNH KÝ."
+  "version": "2.4.9",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.4.9.zip",
+  "sha256": "58fbcb2d80c6335c965eacd7fcfbc38f4ea5761d13dc7cfd4c391fcbb8b0bed3",
+  "notes": "Khóa kích thước 3 nút chính; thu gọn Dynamic Sổ/Lịch để luôn hiện đủ phiên bản. Dynamic Sổ ở Văn bản đi luôn báo rõ có/không liên quan và chỉ mở chi tiết khi có phát hiện. Đồng bộ icon SVG; popup Phát hiện lịch họp bám đúng nút, tự mở một lần, ưu tiên Thêm vào lịch họp và Xem chi tiết mở biểu mẫu đã điền sẵn. Giữ nguyên pipeline DOM và đọc file của 2.4.8."
 }
