@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.4.4",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.4.4.zip",
-  "sha256": "c8af2607e4d7856ba49725a9ae3e21cb09cd8a82da70f5623d0883b686eaf9fb",
-  "notes": "Lịch họp mở riêng như Sổ theo dõi; icon SVG sáng khi có lịch; một văn bản một cuộc họp; meeting.json dùng chung với Tracker 8.1.12; API Admin."
+  "version": "2.4.5",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.4.5.zip",
+  "sha256": "1766287ca7aa023be2892e3804e24594e1655f7a436bbd775125e49bc4667a26",
+  "notes": "Dynamic Island 3 slot cố định; nút Sổ/Lịch lớn mở giao diện chính, nút nhỏ mở xác nhận nhanh và sáng khi có thông tin; hiển thị Model/Rule/Recipient/Meet; sửa danh sách Xem để biết ưu tiên dữ liệu live từ iOffice và chỉ đồng bộ bản sao sang Tracker."
 }
