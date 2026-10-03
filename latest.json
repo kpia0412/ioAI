@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "2.4.9",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.4.9.zip",
-  "sha256": "58fbcb2d80c6335c965eacd7fcfbc38f4ea5761d13dc7cfd4c391fcbb8b0bed3",
-  "notes": "Khóa kích thước 3 nút chính; thu gọn Dynamic Sổ/Lịch để luôn hiện đủ phiên bản. Dynamic Sổ ở Văn bản đi luôn báo rõ có/không liên quan và chỉ mở chi tiết khi có phát hiện. Đồng bộ icon SVG; popup Phát hiện lịch họp bám đúng nút, tự mở một lần, ưu tiên Thêm vào lịch họp và Xem chi tiết mở biểu mẫu đã điền sẵn. Giữ nguyên pipeline DOM và đọc file của 2.4.8."
+  "version": "2.5.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-2.5.0.zip",
+  "sha256": "0c3b0aaac0f1331e9db20188f355b0ed88820db6d6a2d04f3dfd9226f9d40ad6",
+  "notes": "Nâng cấp đọc PDF scan: ghép đúng token file gốc với viewer Base64 của iOffice, tái sử dụng PDF.js đang mở để tránh tải lặp; phát hiện scan bằng lớp chữ PDF; chỉ hỏi OCR khi tệp scan thật sự cần; OCR Tesseract tiếng Việt tuần tự theo trang, có tiến trình/Dừng, tiếp tục khi một trang lỗi, ưu tiên cache OCR iOffice và giới hạn 10 MB. Giữ nguyên luồng đọc file thường và giao diện 2.4.9."
 }
