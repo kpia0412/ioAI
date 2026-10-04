@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "3.1.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-3.1.0.zip",
-  "sha256": "b329ea26e8a3484ca221ee6dcc66132e4e695a191852cc4132a60a4bf795dfc8",
-  "notes": "Nâng cấp lớn PDF scan: phát hiện theo từng trang bằng PDF.js, dùng cơ chế đọc scan gốc iOffice qua một MAIN bridge duy nhất; tối đa một lần hỏi với Đồng ý đọc/Bỏ qua, tự xử lý PDF hỗn hợp và nhiều tệp scan cần thiết."
+  "version": "3.2.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-3.2.0.zip",
+  "sha256": "2fb56c7524cdb114791dc34db41f418af779d1a608d3347ad0f116b916f366ec",
+  "notes": "Dọn sạch kiến trúc PDF: mọi PDF chỉ đi qua một MAIN bridge duy nhất; bridge tự tìm hoặc mở viewer thật của iOffice, phân loại text/scan/mixed theo trang và dùng cơ chế đọc scan gốc iOffice khi người dùng chọn Đồng ý. Không còn fallback PDF qua viewer-main, iframe ẩn, resolver/network bytes hoặc pdf-read-unverified."
 }
