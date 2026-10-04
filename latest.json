@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "3.0.3",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-3.0.3.zip",
-  "sha256": "c2a9b5c2393e2b3759570549c70e3fa138ed36a1712f6f08a2e807dac7806345",
-  "notes": "Sửa lỗi PDF scan bị timeout trước khi kịp xác nhận: không chờ pdf.getData() ở bước phát hiện scan/OCR; trả scan ngay khi PDF.js đã kiểm tra lớp chữ rỗng, dùng kích thước /viewfile từ Performance API khi có. OCR vẫn dùng đúng ocr.js/Tesseract gốc iOffice."
+  "version": "3.1.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-3.1.0.zip",
+  "sha256": "b329ea26e8a3484ca221ee6dcc66132e4e695a191852cc4132a60a4bf795dfc8",
+  "notes": "Nâng cấp lớn PDF scan: phát hiện theo từng trang bằng PDF.js, dùng cơ chế đọc scan gốc iOffice qua một MAIN bridge duy nhất; tối đa một lần hỏi với Đồng ý đọc/Bỏ qua, tự xử lý PDF hỗn hợp và nhiều tệp scan cần thiết."
 }
