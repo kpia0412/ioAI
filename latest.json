@@ -1,7 +1,7 @@
 {
   "format": "ioffice-extension-v1",
-  "version": "3.2.0",
-  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-3.2.0.zip",
-  "sha256": "2fb56c7524cdb114791dc34db41f418af779d1a608d3347ad0f116b916f366ec",
-  "notes": "Dọn sạch kiến trúc PDF: mọi PDF chỉ đi qua một MAIN bridge duy nhất; bridge tự tìm hoặc mở viewer thật của iOffice, phân loại text/scan/mixed theo trang và dùng cơ chế đọc scan gốc iOffice khi người dùng chọn Đồng ý. Không còn fallback PDF qua viewer-main, iframe ẩn, resolver/network bytes hoặc pdf-read-unverified."
+  "version": "3.3.0",
+  "downloadUrl": "https://kpia0412.github.io/ioAI/ioffice-ai-3.3.0.zip",
+  "sha256": "b6855f6dcf0f4f88e8a6c7a655d877ec38527777b77173d4ccd0897ef8aae5f0",
+  "notes": "Khôi phục Reader PDF thường ổn định; MAIN scan bridge chỉ là fallback khi PDF không có lớp chữ hoặc có trang scan. Bỏ AbortController trong MAIN world, dùng đúng OCR gốc iOffice, hỗ trợ PDF mixed theo trang và chỉ hỏi người dùng tối đa một lần bằng Đồng ý/Bỏ qua."
 }
